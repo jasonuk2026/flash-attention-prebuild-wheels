@@ -169,34 +169,16 @@ LINUX_NO_CONTAINER_MATRIX = {
 
 LINUX_ARM64_NO_CONTAINER_MATRIX = {
     "flash-attn-version": [
-        # "2.6.3",
-        # "2.7.4",
-        # "2.8.3",
         FA3_COMMIT,
     ],
     "python-version": [
-        "3.10",
-        "3.11",
-        "3.12",
         "3.13",
-        "3.14",
-        "3.14t",
     ],
     "torch-version": [
-        # "2.5.1",
-        # "2.6.0",
-        # "2.7.1",
-        # "2.8.0",
-        "2.9.1",
-        "2.10.0",
         "2.11.0",
     ],
     "cuda-version": [
-        # "12.4",
         "12.6",
-        "12.8",
-        # "12.9",
-        "13.0",
     ],
 }
 
