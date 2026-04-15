@@ -279,14 +279,14 @@ def main():
                 "linux_self_hosted": False,
                 # "linux_self_hosted": LINUX_SELF_HOSTED_MATRIX,
                 #
-                # "linux_arm64_self_hosted": False,
-                "linux_arm64_self_hosted": LINUX_ARM64_SELF_HOSTED_MATRIX,
+                "linux_arm64_self_hosted": False,
+                # "linux_arm64_self_hosted": LINUX_ARM64_SELF_HOSTED_MATRIX,
                 #
                 "linux_no_container": False,
                 # "linux_no_container": LINUX_NO_CONTAINER_MATRIX,
                 #
-                "linux_arm64_no_container": False,
-                # "linux_arm64_no_container": LINUX_ARM64_NO_CONTAINER_MATRIX,
+                # "linux_arm64_no_container": False,
+                "linux_arm64_no_container": LINUX_ARM64_NO_CONTAINER_MATRIX,
                 #
                 "windows": False,
                 # "windows": WINDOWS_MATRIX,
